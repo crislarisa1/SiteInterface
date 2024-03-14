@@ -166,6 +166,7 @@ strong{
 .container-services{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .services-card{
@@ -176,7 +177,8 @@ strong{
     margin-bottom: 2.5rem;
     flex: 1 0 20%;
 }
-.services-card img{
+.services-card img,
+.gallery-item img{
     height: 300px;
     width: 370px;
 }
@@ -327,7 +329,8 @@ form :focus, textarea:focus{
         padding: 7em 13em;
     }
 
-    .services-card img{
+    .services-card img,
+    .gallery-item img{
         height: auto;
         width: 200px;
     }
@@ -343,7 +346,8 @@ form :focus, textarea:focus{
         padding: 7em 7em;
     }
 
-    .services-card img{
+    .services-card img,
+    .gallery-item img{
         height: auto;
         width: 120px;
     }
@@ -353,20 +357,19 @@ form :focus, textarea:focus{
 .container-gallery {
     display: flex;
     flex-wrap: row;
+    width: 30%;
     margin-right: 2.5em;
     margin-bottom: 2.5rem;
     flex: 1 0 20%;
 }
 
 .gallery-item {
-    width: calc(25% - 10px);
-    margin-bottom: 20px;
-    padding: 10px 5px 10px 5px
+    width: 25%;
 }
 
 .gallery-item img {
-    height: 210px;
-    width: 300px;
+    width: 80%;
+    height: 50%;
 }
 
 
