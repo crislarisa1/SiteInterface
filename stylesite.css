@@ -301,7 +301,8 @@ form :focus, textarea:focus{
     display: block;
 }
 
-.contact-methods {
+.contact-methods,
+.social-links {
     display: flex;
     justify-content: space-between;
 }
