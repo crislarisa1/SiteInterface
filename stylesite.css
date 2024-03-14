@@ -315,7 +315,16 @@ form :focus, textarea:focus{
     margin-right: 8px;
 }
 
+.gallery-item li {
+    display: inline;
+    margin-right: 8px;
+}
+
 .social-links li a {
+    text-decoration: none;
+}
+
+.gallery-item li a {
     text-decoration: none;
 }
 
