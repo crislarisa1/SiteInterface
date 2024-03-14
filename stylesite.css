@@ -339,7 +339,8 @@ form :focus, textarea:focus{
     }
 
     .services-card img,
-    .gallery-item img{
+    .gallery-item img,
+    .social-links{
         height: auto;
         width: 200px;
     }
@@ -356,7 +357,8 @@ form :focus, textarea:focus{
     }
 
     .services-card img,
-    .gallery-item img{
+    .gallery-item img,
+    .social-links img{
         height: auto;
         width: 120px;
     }
